@@ -1,0 +1,13 @@
+folder_in: /home/zerg/tst
+folder_out: /home/zerg/out
+folder_ext: /home/zerg/folder1
+folder_ext2: /home/zerg/folder2
+count: 5
+bs: 1M
+type: zip
+ip: 0.0.0.0
+user: user2
+password: 2222
+local_path: /home/user/p7zip-full.deb
+remote_path: /home/user2/p7zip-full.deb
+
