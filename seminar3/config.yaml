@@ -1,6 +1,13 @@
-folder_in: /home/zerg/tst
-folder_out: /home/zerg/out
-folder_ext: /home/zerg/folder1
-folder_ext2: /home/zerg/folder2
+folder_in: /home/user/tst
+folder_out: /home/user/out
+folder_ext: /home/user/folder1
+folder_ext2: /home/user/folder2
 count: 5
 bs: 1M
+
+type: zip
+ip: 0.0.0.0
+user2: user2
+password: 2222
+local_path: /home/user/folder_test1
+remote_path: /home/user2/folder_test1
