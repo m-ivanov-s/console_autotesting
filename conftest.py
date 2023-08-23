@@ -4,7 +4,7 @@ import random, string
 import yaml
 from datetime import datetime
 
-with open('config.yaml') as f:
+with open('seminar3/config.yaml') as f:
     # читаем документ YAML
     data = yaml.safe_load(f)
 

@@ -1,7 +1,7 @@
 from checkers import checkout, getout
 import yaml
 
-with open('config.yaml') as f:
+with open('seminar3/config.yaml') as f:
     # читаем документ YAML
     data = yaml.safe_load(f)
 
@@ -60,3 +60,5 @@ class TestPositive:
             hash = getout("cd {}; crc32 {}".format(data["folder_in"], i)).upper()
             res.append(checkout("cd {}; 7z h {}".format(data["folder_in"], i), hash))
         assert all(res), "test8 FAIL"
+
+# comand of lounch: python3 -m pytest -v
